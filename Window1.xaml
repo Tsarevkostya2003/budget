@@ -1,0 +1,17 @@
+﻿<Window x:Class="OAP_Ex4.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OAP_Ex4"
+        mc:Ignorable="d"
+        Title="Ввод вида бюджета" Height="200" Width="250">
+    <Grid Margin="0,0,10,0">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="13,21,0,0" Grid.Row="1" VerticalAlignment="Top" Height="65" Width="132" Click="Button_Click"/>
+        <TextBox x:Name="Vb" HorizontalAlignment="Left" Height="39" Margin="13,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="187"/>
+    </Grid>
+</Window>
